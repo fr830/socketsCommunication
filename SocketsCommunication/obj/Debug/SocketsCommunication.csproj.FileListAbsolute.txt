@@ -1,6 +1,0 @@
-G:\.My_SiginProject\.socketsCommunication\socketsCommunication\SocketsCommunication\bin\Debug\SocketsCommunication.dll
-G:\.My_SiginProject\.socketsCommunication\socketsCommunication\SocketsCommunication\bin\Debug\SocketsCommunication.pdb
-G:\.My_SiginProject\.socketsCommunication\socketsCommunication\SocketsCommunication\obj\Debug\SocketsCommunication.dll
-G:\.My_SiginProject\.socketsCommunication\socketsCommunication\SocketsCommunication\obj\Debug\SocketsCommunication.pdb
-G:\.My_SiginProject\.socketsCommunication\socketsCommunication\SocketsCommunication\obj\Debug\SocketsCommunication.csproj.CoreCompileInputs.cache
-G:\.My_SiginProject\.socketsCommunication\socketsCommunication\SocketsCommunication\obj\Debug\SocketsCommunication.csprojAssemblyReference.cache

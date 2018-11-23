@@ -25,14 +25,13 @@ namespace ClientConnOpcServer
 
     public class _ClientConnOpcServer
     {
-
         /// <summary>
         /// 实例化事件
         /// </summary>
         public event _CustomEventHandler.TelegramRecievedEventHandler TelegrammRecieved;
 
         /// <summary>
-        /// 构造函数,调用SynchronizationContext.Current
+        /// 构造函数,调用SynchronizationContext.Current,传输当前同步上下文
         /// </summary>      
         public _ClientConnOpcServer(SynchronizationContext context)
         {

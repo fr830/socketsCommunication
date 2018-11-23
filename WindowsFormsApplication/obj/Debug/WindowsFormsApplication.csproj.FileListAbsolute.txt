@@ -1,0 +1,16 @@
+G:\.My_SiginProject\.socketsCommunication\socketsCommunication\WindowsFormsApplication\bin\Debug\WindowsFormsApplication.exe
+G:\.My_SiginProject\.socketsCommunication\socketsCommunication\WindowsFormsApplication\bin\Debug\WindowsFormsApplication.pdb
+G:\.My_SiginProject\.socketsCommunication\socketsCommunication\WindowsFormsApplication\bin\Debug\ClientConnOpcServer.dll
+G:\.My_SiginProject\.socketsCommunication\socketsCommunication\WindowsFormsApplication\bin\Debug\Interop.OPCAutomation.dll
+G:\.My_SiginProject\.socketsCommunication\socketsCommunication\WindowsFormsApplication\bin\Debug\SocketsCommunication.dll
+G:\.My_SiginProject\.socketsCommunication\socketsCommunication\WindowsFormsApplication\bin\Debug\ClientConnOpcServer.pdb
+G:\.My_SiginProject\.socketsCommunication\socketsCommunication\WindowsFormsApplication\bin\Debug\SocketsCommunication.pdb
+G:\.My_SiginProject\.socketsCommunication\socketsCommunication\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.ServerSockets.resources
+G:\.My_SiginProject\.socketsCommunication\socketsCommunication\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.OpcClient.resources
+G:\.My_SiginProject\.socketsCommunication\socketsCommunication\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.Properties.Resources.resources
+G:\.My_SiginProject\.socketsCommunication\socketsCommunication\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.csproj.GenerateResource.Cache
+G:\.My_SiginProject\.socketsCommunication\socketsCommunication\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.exe
+G:\.My_SiginProject\.socketsCommunication\socketsCommunication\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.pdb
+G:\.My_SiginProject\.socketsCommunication\socketsCommunication\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.csprojAssemblyReference.cache
+G:\.My_SiginProject\.socketsCommunication\socketsCommunication\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.csproj.CoreCompileInputs.cache
+G:\.My_SiginProject\.socketsCommunication\socketsCommunication\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.csproj.CopyComplete

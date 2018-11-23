@@ -1,5 +1,4 @@
 ﻿
-using EntityModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,7 +30,7 @@ namespace SocketsCommunication
        /// <summary>
        /// 推送消息到界面的事件
        /// </summary>
-       public static CustomEventHandler._CustomEventHandler.TellCustomEventHandler<ClientSocket> PushClient;
+       public static _CustomEventHandler.TellCustomEventHandler<ClientSocket> PushClient;
 
 
        List<ClientSocket> list = new List<ClientSocket>();

@@ -1,5 +1,4 @@
 ﻿using ClientConnOpcServer;
-using EntityModel;
 using OPCAutomation;
 using System;
 using System.Collections.Generic;
@@ -20,6 +19,18 @@ namespace WindowsFormsApplication
         {
             InitializeComponent();
         }
+
+        List<string> GetPointBF = new List<string>()
+        {
+            "BF1.Input.PFlag",
+            "BF1.DB.Pre",
+            "BF1.DB.PreMax",
+            "BF1.DB.PreMin",
+            "BF1.Input.WFlag",
+            "BF1.DB.Wei",
+            "BF1.DB.WeiMax",
+            "BF1.DB.WeiMin"
+        };
         string strHostIP, strHostName;
         _ClientConnOpcServer opc = null;
         Result<OPCServer> result = null;
@@ -27,12 +38,12 @@ namespace WindowsFormsApplication
         {
            
                 opc = new _ClientConnOpcServer(SynchronizationContext.Current);
-                string[] a = opc.GetLoccalIpAndHostName();
+              //  string[] a = opc.GetLoccalIpAndHostName();
                 opc.TelegrammRecieved += opc_TelegrammRecieved;
-                result = opc.CreateConnection(a[1], a[0], 3);
+                result = opc.CreateConnection("KepWare.KEPServerEX.V6", "10.3.10.100", 3);
                 if (!result.IsSuccess) { MessageBox.Show("连接失败!"); }
                 IList<string> list = ConfigPoint();
-                opc.AddConnectionPoint(list, result.Content, 200);
+                opc.AddConnectionPoint(GetPointBF, result.Content, 200);
        
             
         }
@@ -60,11 +71,21 @@ namespace WindowsFormsApplication
         public IList<string> ConfigPoint()
         {
             IList<string> list = new List<string>();
-            list.Add("模拟器示例.函数.Ramp1");
-            list.Add("模拟器示例.函数.Ramp2");
-            list.Add("模拟器示例.函数.Ramp3");
-            list.Add("模拟器示例.函数.Ramp4");
-            list.Add("模拟器示例.函数.Random1");
+            //list.Add("模拟器示例.函数.Ramp1");
+            //list.Add("模拟器示例.函数.Ramp2");
+            //list.Add("模拟器示例.函数.Ramp3");
+            //list.Add("模拟器示例.函数.Ramp4");
+            //list.Add("模拟器示例.函数.Random1");
+
+            list.Add("BF1.Input.PFlag");
+            list.Add("BF1.DB.Pre");
+            list.Add("BF1.DB.PreMax");
+            list.Add("BF1.DB.PreMin");
+            list.Add("BF1.Input.WFlag");
+            list.Add("BF1.DB.Wei");
+            list.Add("BF1.DB.WeiMax");
+            list.Add("BF1.DB.WeiMin");
+            //list.Add("模拟器示例.函数.Random1");
             return list;
         }
         private void button3_Click(object sender, EventArgs e)

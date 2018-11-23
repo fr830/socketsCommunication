@@ -1,4 +1,4 @@
-﻿using EntityModel;
+﻿
 using SocketsCommunication;
 using System;
 using System.Collections.Generic;
@@ -31,7 +31,7 @@ namespace WindowsFormsApplication
         {
             Thread th = new Thread( new ParameterizedThreadStart((t) => {
                 //注册通知事件
-                _SocketsCommunication.PushClient += new CustomEventHandler._CustomEventHandler.TellCustomEventHandler<ClientSocket>(Recv);
+                _SocketsCommunication.PushClient += new _CustomEventHandler.TellCustomEventHandler<ClientSocket>(Recv);
                 socket = new _SocketsCommunication();               
             }));
             th.Start();

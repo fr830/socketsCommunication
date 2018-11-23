@@ -1,25 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core.OpcServerConnection", "Core.OpcServerConnection", "{2C24BD10-533E-41C4-9529-80A77CA569F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientConnOpcServer", "ClientConnOpcServer\ClientConnOpcServer.csproj", "{19C786DC-CA10-46F2-B255-D9E1A0DEF76F}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core.Entity", "Core.Entity", "{8FEA448C-7ACC-46A9-A1FB-FDFD2C7402FC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityModel", "EntityModel\EntityModel.csproj", "{001C4DE0-E60A-4B37-A405-D08F1E9CF074}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication", "WindowsFormsApplication\WindowsFormsApplication.csproj", "{1CAD3E24-0DB7-4DE4-8EA8-772B0A49F1BE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core.SocketCommunication", "Core.SocketCommunication", "{7C684B9D-3C5C-40F2-8486-96823702FCE4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketsCommunication", "SocketsCommunication\SocketsCommunication.csproj", "{410B02C3-18BF-4235-8519-379DEEBEC89B}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core.CustomEventHandler", "Core.CustomEventHandler", "{921A00F7-09DB-4C5C-90D1-0ACB07487046}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomEventHandler", "CustomEventHandler\CustomEventHandler.csproj", "{69D15270-FA16-4F60-8F88-9CAD8D48D086}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +23,6 @@ Global
 		{19C786DC-CA10-46F2-B255-D9E1A0DEF76F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19C786DC-CA10-46F2-B255-D9E1A0DEF76F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19C786DC-CA10-46F2-B255-D9E1A0DEF76F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{001C4DE0-E60A-4B37-A405-D08F1E9CF074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{001C4DE0-E60A-4B37-A405-D08F1E9CF074}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{001C4DE0-E60A-4B37-A405-D08F1E9CF074}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{001C4DE0-E60A-4B37-A405-D08F1E9CF074}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1CAD3E24-0DB7-4DE4-8EA8-772B0A49F1BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1CAD3E24-0DB7-4DE4-8EA8-772B0A49F1BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CAD3E24-0DB7-4DE4-8EA8-772B0A49F1BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -43,18 +31,15 @@ Global
 		{410B02C3-18BF-4235-8519-379DEEBEC89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{410B02C3-18BF-4235-8519-379DEEBEC89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{410B02C3-18BF-4235-8519-379DEEBEC89B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{69D15270-FA16-4F60-8F88-9CAD8D48D086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{69D15270-FA16-4F60-8F88-9CAD8D48D086}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{69D15270-FA16-4F60-8F88-9CAD8D48D086}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{69D15270-FA16-4F60-8F88-9CAD8D48D086}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{19C786DC-CA10-46F2-B255-D9E1A0DEF76F} = {2C24BD10-533E-41C4-9529-80A77CA569F6}
-		{001C4DE0-E60A-4B37-A405-D08F1E9CF074} = {8FEA448C-7ACC-46A9-A1FB-FDFD2C7402FC}
 		{410B02C3-18BF-4235-8519-379DEEBEC89B} = {7C684B9D-3C5C-40F2-8486-96823702FCE4}
-		{69D15270-FA16-4F60-8F88-9CAD8D48D086} = {921A00F7-09DB-4C5C-90D1-0ACB07487046}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01E15C0E-CA16-4301-9035-4CA5B62824AB}
 	EndGlobalSection
 EndGlobal

@@ -39,18 +39,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomEventHandler\_CustomEventHandler.cs" />
+    <Compile Include="Entity\OperTimeOut.cs" />
+    <Compile Include="Entity\Result.cs" />
+    <Compile Include="Entity\StateObject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="_SocketsCommunication.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CustomEventHandler\CustomEventHandler.csproj">
-      <Project>{69d15270-fa16-4f60-8f88-9cad8d48d086}</Project>
-      <Name>CustomEventHandler</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\EntityModel\EntityModel.csproj">
-      <Project>{001c4de0-e60a-4b37-a405-d08f1e9cf074}</Project>
-      <Name>EntityModel</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

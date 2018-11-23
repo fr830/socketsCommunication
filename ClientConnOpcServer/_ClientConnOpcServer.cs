@@ -1,5 +1,4 @@
 ﻿
-using EntityModel;
 using OPCAutomation;
 using System;
 using System.Collections.Generic;
@@ -30,7 +29,7 @@ namespace ClientConnOpcServer
         /// <summary>
         /// 实例化事件
         /// </summary>
-        public event CustomEventHandler._CustomEventHandler.TelegramRecievedEventHandler TelegrammRecieved;
+        public event _CustomEventHandler.TelegramRecievedEventHandler TelegrammRecieved;
 
         /// <summary>
         /// 构造函数,调用SynchronizationContext.Current

@@ -31,7 +31,6 @@ namespace WindowsFormsApplication
             "BF1.DB.WeiMax",
             "BF1.DB.WeiMin"
         };
-        string strHostIP, strHostName;
         _ClientConnOpcServer opc = null;
         Result<OPCServer> result = null;
         private void button1_Click(object sender, EventArgs e)

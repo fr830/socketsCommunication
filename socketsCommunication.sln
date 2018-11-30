@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core.SocketCommunication", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketsCommunication", "SocketsCommunication\SocketsCommunication.csproj", "{410B02C3-18BF-4235-8519-379DEEBEC89B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core.CommunicationPLC", "Core.CommunicationPLC", "{C48CD7A4-75CC-48A4-9D56-706534E85D19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_CommunicationPLC", "_CommunicationPLC\_CommunicationPLC.csproj", "{626C32CC-9891-4FBA-8603-F115EF725342}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,10 @@ Global
 		{410B02C3-18BF-4235-8519-379DEEBEC89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{410B02C3-18BF-4235-8519-379DEEBEC89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{410B02C3-18BF-4235-8519-379DEEBEC89B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{626C32CC-9891-4FBA-8603-F115EF725342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{626C32CC-9891-4FBA-8603-F115EF725342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{626C32CC-9891-4FBA-8603-F115EF725342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{626C32CC-9891-4FBA-8603-F115EF725342}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +46,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{19C786DC-CA10-46F2-B255-D9E1A0DEF76F} = {2C24BD10-533E-41C4-9529-80A77CA569F6}
 		{410B02C3-18BF-4235-8519-379DEEBEC89B} = {7C684B9D-3C5C-40F2-8486-96823702FCE4}
+		{626C32CC-9891-4FBA-8603-F115EF725342} = {C48CD7A4-75CC-48A4-9D56-706534E85D19}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {01E15C0E-CA16-4301-9035-4CA5B62824AB}
